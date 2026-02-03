@@ -12,7 +12,7 @@ Ele foi pensado para empresas que precisam organizar clientes, leads e mensagens
 
 > Tela Inicial
 <!-- <img width="1859" height="948" alt="screen3" src="https://github.com/user-attachments/assets/4e607964-4938-4ff1-b232-efe34b5675d8" /> -->
-![Tela Inicial](screen/screen3.png)
+![Tela Inicial](/screen/screen3.png)
 
 > Tela Inicial Usuário
 <!-- <img width="1877" height="948" alt="screen1" src="https://github.com/user-attachments/assets/f1ac96d8-ed6d-4877-99f1-5bf64d935c2e" /> -->
