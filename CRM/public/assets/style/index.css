@@ -1,0 +1,207 @@
+:root {
+            --primary: #4f46e5;
+            --secondary: #6366f1;
+            --dark: #0f172a;
+            --gray: #64748b;
+            --light: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+        }
+
+        .success {
+            background: #dcfce7;
+            color: #166534;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 500px;
+            margin: 20px auto;
+            font-size: 14px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 80px;
+            background: #fff;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .nav-buttons a {
+            margin-left: 16px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .login {
+            color: var(--primary);
+            transition: 0.4s;
+        }
+
+        .login:hover {
+            color: var(--secondary);
+        }
+
+        .signup {
+            background: var(--primary);
+            color: #fff;
+            transition: 0.4s;
+        }
+
+        .signup:hover {
+            background: var(--secondary);
+        }
+
+        .hero {
+            padding: 100px 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 32px;
+        }
+
+        .hero .btn {
+            padding: 14px 28px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            background: var(--primary);
+            color: #fff;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        .hero .btn:hover {
+            background: var(--secondary);
+        }
+
+        .hero-image {
+            /* background: linear-gradient(135deg, var(--primary), var(--secondary)); */
+            background-image: url('../images/ChatGPT\ Image\ 20\ de\ jan.\ de\ 2026\,\ 18_40_17.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            height: 320px;
+        }
+
+        section {
+            padding: 80px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 48px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: var(--gray);
+            font-size: 15px;
+        }
+
+        .image-text {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .image-box {
+            height: 300px;
+            border-radius: 20px;
+            /* background: #e5e7eb; */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url('../images/ChatGPT\ Image\ 20\ de\ jan.\ de\ 2026\,\ 18_40_19.png');
+        }
+
+        .testimonials {
+            background: #fff;
+        }
+
+        .testimonial {
+            background: var(--light);
+            padding: 24px;
+            border-radius: 16px;
+        }
+
+        footer {
+            background: var(--dark);
+            color: #cbd5f5;
+            padding: 40px 80px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+            header, section, .hero {
+                padding: 40px 24px;
+            }
+
+            .hero, .image-text {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }

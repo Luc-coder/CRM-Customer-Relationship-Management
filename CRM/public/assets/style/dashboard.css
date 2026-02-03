@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f4f6fb;
+}
+
+/* Layout */
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 240px;
+    background: #111827;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.logo {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #cbd5f5;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+    background: #2563eb;
+    color: #fff;
+}
+
+.logout {
+    margin-top: 40px;
+    background: #dc2626;
+}
+
+/* Main */
+
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Topbar */
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.topbar h2 {
+    font-size: 24px;
+}
+
+.topbar p {
+    color: #6b7280;
+}
+
+/* Cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+/* Content */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.chart {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.bar {
+    flex: 1;
+    text-align: center;
+}
+
+.bar span {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.bar div {
+    width: 100%;
+    background: #2563eb;
+    border-radius: 6px 6px 0 0;
+    margin-top: 6px;
+}
