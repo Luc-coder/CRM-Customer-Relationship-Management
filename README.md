@@ -11,14 +11,16 @@ Ele foi pensado para empresas que precisam organizar clientes, leads e mensagens
 # 🖥️ Preview
 
 > Tela Inicial
-<img width="1859" height="948" alt="screen3" src="https://github.com/user-attachments/assets/4e607964-4938-4ff1-b232-efe34b5675d8" />
-![Dashboard](screen/screen3png)
+<!-- <img width="1859" height="948" alt="screen3" src="https://github.com/user-attachments/assets/4e607964-4938-4ff1-b232-efe34b5675d8" /> -->
+![Tela Inicial](crm/screen/index.png)
 
 > Tela Inicial Usuário
-<img width="1877" height="948" alt="screen1" src="https://github.com/user-attachments/assets/f1ac96d8-ed6d-4877-99f1-5bf64d935c2e" />
+<!-- <img width="1877" height="948" alt="screen1" src="https://github.com/user-attachments/assets/f1ac96d8-ed6d-4877-99f1-5bf64d935c2e" /> -->
+![Dashboard](crm/screen/dashboard.png)
 
 > Tela deClientes
-<img width="1877" height="950" alt="screen2" src="https://github.com/user-attachments/assets/8bd9dc09-acbe-4c8d-ab18-6c1a010bb4b3" />
+<!-- <img width="1877" height="950" alt="screen2" src="https://github.com/user-attachments/assets/8bd9dc09-acbe-4c8d-ab18-6c1a010bb4b3" /> -->
+![Clientes](crm/screen/clients.png)
 
 
 # ✨ Principais Recursos
@@ -105,7 +107,7 @@ git clone https://github.com/seu-usuario/russi-crm.git
 
 2) Crie um banco de dados MySQL
 
-3) Use o arquivo crm.sql para ter o banco crm com as tabelas certas
+3) Use o arquivo crm.sql para ter o banco crm com as tabelas certas. O arquivo está em: crm/sql/crm.sql
 
 4) Configure seu arquivo de conexão em crm/app/db/connection.php. Altere os dados de $server, $user, $password, $db
 
